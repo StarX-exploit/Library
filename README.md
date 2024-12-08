@@ -45,7 +45,7 @@ end)
 
 # EXAMPLE
 ```
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/bacon"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StarX-exploit/Library/refs/heads/main/Main.lua"))()
 local window = lib:CreateWindow(" Your Hub")
 local label = lib:CreateLabel(window, "Main")
 local textBox = lib:CreateTextBox(window, Enum.Font.Legacy, "Text", "Hello, World!")
