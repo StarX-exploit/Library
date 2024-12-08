@@ -2,7 +2,7 @@ This Script Is Beta And Idk Just use it, my friend give me the source.
 
 # Booting The Library
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StarX-exploit/Library/refs/heads/main/Main.lua"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/StarX-exploit/Library/refs/heads/main/Main.lua"))()
 ```
 # Label
 ```
@@ -45,7 +45,7 @@ end)
 
 # EXAMPLE
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/StarX-exploit/Library/refs/heads/main/Main.lua"))()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/StarX-exploit/Library/refs/heads/main/Main.lua"))()
 local window = lib:CreateWindow(" Your Hub")
 local label = lib:CreateLabel(window, "Main")
 local textBox = lib:CreateTextBox(window, Enum.Font.Legacy, "Text", "Hello, World!")
